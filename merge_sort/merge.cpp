@@ -47,11 +47,11 @@ int main(){
     int arr[]={9,2,3,1,6,5};
     int s=sizeof(arr)/sizeof(arr[0]);
     for (int i=0;i<s;i++){
-        cout<<arr[i]<<"/t";
+        cout<<arr[i]<<"\t";
     }
     cout<<"\n after merge sort\n";
     mergest(arr,0,s-1);
     for (int i=0;i<s;i++){
-        cout<<arr[i]<<"/t";
+        cout<<arr[i]<<"\t";
     }
 }

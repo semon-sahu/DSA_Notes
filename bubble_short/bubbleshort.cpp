@@ -12,7 +12,7 @@ void bubble(int a[], int s)
         {
             if (a[j] > a[j + 1])
             {
-                count++;
+                count++;  
                 int temp = a[j];
                 a[j] = a[j + 1];
                 a[j + 1] = temp;
@@ -34,7 +34,7 @@ void bubble(int a[], int s)
 
 int main()
 {
-    int arr[] = {44, 5, 6, 1, 202, 3, 4, 5, 11, 45};
+    int arr[] = {44, 5, 6, 1, 202, 3, 4, 5, 11, 45,90,85,1230};
     // int arr[]={};
     // int arr[] = {1,45,3,4,5};
     int s = sizeof(arr) / sizeof(arr[0]);

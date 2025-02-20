@@ -20,7 +20,7 @@ void show(int a[], int s)
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
+    int arr[] = {1, 2, 3, 4, 5, 565, 7, 8};
     int s = sizeof(arr) / sizeof(arr[0]);
 
     show(arr, s);
