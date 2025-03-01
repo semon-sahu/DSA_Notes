@@ -1,4 +1,5 @@
 // w.A.P to sort an array by using bubble sort.
+// Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the
 
 #include <iostream>
 using namespace std;
@@ -54,3 +55,4 @@ int main()
 // Approach : substraction and conquer technique.
 
 // Code is value/element based or structure based or both : in this case it is Value based.
+
