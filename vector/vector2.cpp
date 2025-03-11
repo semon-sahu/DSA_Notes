@@ -1,5 +1,3 @@
-
-
 #include<iostream>
 using namespace std;
 #include <vector>
@@ -22,7 +20,6 @@ int main(){
     for(auto k:v4){
         cout<<k<<"\t";
     }
-
     vector<int>vec;
     int n,a;
     cout<<"Enter the number of elements you want to enter in the vector: ";
@@ -36,7 +33,6 @@ int main(){
     for(auto p:vec){
         cout<<p<<"\t";
     }
-
 }
 
 
