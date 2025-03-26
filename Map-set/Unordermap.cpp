@@ -42,7 +42,7 @@ int main()
         cout << p.first << " " << p.second << "\n";
     }
     auto t=mp.find(10);
-    if(t!=mp.end()){
+    if(t!=mp.end()){  
         mp.erase(t);
     }
     else{
